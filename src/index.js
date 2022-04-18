@@ -56,7 +56,7 @@ export { buildMenuItems, buildKeymap, buildInputRules };
 //
 //     menuContent:: [[MenuItem]]
 //     Can be used to override the menu content.
-export function c1chatWriterSetup(options) {
+export function woohWriterSetup(options) {
   let plugins = [
     ...(options.plugins || []),
     buildInputRules(options.schema),
@@ -78,7 +78,7 @@ export function c1chatWriterSetup(options) {
   return plugins.concat(
     new Plugin({
       props: {
-        attributes: { class: 'ProseMirror-c1chat-style' },
+        attributes: { class: 'ProseMirror-wooh-style' },
       },
     })
   );

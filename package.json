@@ -1,19 +1,19 @@
 {
   "name": "@cyber1s/prosemirror-schema",
   "version": "1.0.0",
-  "description": "Schema setup for using prosemirror in Cyber1SChat. Based on 👉 https://github.com/ProseMirror/prosemirror-example-setup/",
+  "description": "Schema setup for using prosemirror in cyberchat. Based on 👉 https://github.com/ProseMirror/prosemirror-example-setup/",
   "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:cyber1s/prosemirror-schema.git"
+    "url": "git+https://github.com/cyber1s/prosemirror-schema.git"
   },
   "files": [
     "src/*"
   ],
-  "author": "Nithin Willams <info@cyber1s.com>",
+  "author": "Chris Davidson <chris@cyber1s.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/cyber1s/prosemirror-schema/issues"
